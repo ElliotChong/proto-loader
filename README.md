@@ -2,8 +2,11 @@
 
 Converts .proto files into JSON so they can be [loaded without a parser](https://github.com/dcodeIO/ProtoBuf.js/wiki/Builder#using-json-without-the-proto-parser). For use with [webpack](http://webpack.github.io/docs/) and [ProtoBuf.js](https://github.com/dcodeIO/ProtoBuf.js)
 
+## Fork Alert!
+Since the original [proto-loader](https://github.com/brianchirls/proto-loader) hasn't been updated or accepted pull requests in over a year this package was forked off of @cessationoftime's [fork](https://github.com/cessationoftime/proto-loader) and published to npm under [@elliotchong/proto-loader](https://www.npmjs.com/package/@elliotchong/proto-loader). Some minor improvements have been made around dependencies along the way, but all credit for the original library goes to @brianchirls.
+
 ## Installation
-npm install proto-loader
+`npm install protobufjs json-loader proto-loader`
 
 ## Usage
 
