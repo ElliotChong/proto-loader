@@ -1,6 +1,6 @@
 {
-  "name": "proto-loader",
-  "version": "0.3.1",
+  "name": "@elliotchong/proto-loader",
+  "version": "1.0.0",
   "description": "Protocol Buffer loader module for webpack",
   "main": "index.js",
   "keywords": [
@@ -11,6 +11,10 @@
     "buffer"
   ],
   "author": "Brian Chirls @bchirls",
+  "contributors": [
+    "Elliot Chong <proto-loader+code@elliotjameschong.com",
+    "Chris Van Vranken @cessationoftime"
+  ],
   "license": "MIT",
   "licenses": [
     {
@@ -20,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianchirls/proto-loader.git"
+    "url": "https://github.com/ElliotChong/proto-loader.git"
   },
   "peerDependencies": {
     "json-loader": "^0.5.4",
